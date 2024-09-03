@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+	padding:0;
     font-family: Arial, Helvetica, sans-serif;
   }
   
@@ -19,6 +20,7 @@ background-color: #ffffff;
     text-decoration: none;
     font-size: 14px;
     font-weight: 100;
+	color:black;
     
 }
 .options{
@@ -36,6 +38,8 @@ background-color: #ffffff;
     height: 60px;
     width: 30%;
     padding-top: 30px;
+
+text-align:right;
 }
 .contact a{
     text-align: center;
@@ -43,7 +47,7 @@ background-color: #ffffff;
     text-decoration: none;
     font-size: 14px;
     font-weight: 100;
-    
+    color:black;
 }
 
 /* header */
@@ -51,13 +55,20 @@ background-color: #ffffff;
 .head{
     height: 700px;
     width: 100%;
+ 
+	
+}
+.headtwo{
+    height: 700px;
+    width: 100%;
     background-image: url(assets/img/hero.jpg);
-    background-size: 1400px 800px;
+    background-size: 100% 800px;
     background-repeat: no-repeat;
+	
 }
 .text{
     padding-top: 160px;
-    padding-left: 20px;
+    padding-left: 50px;
     height: 400px;
     width: 80%;
     align-items: center;
@@ -139,6 +150,7 @@ background-color: #ffffff;
     background-color: #ffffff;
     text-align: center;
     padding-top: 70px;
+	
 }
 .trend{
     font-family: 'Cinzel', serif;
@@ -149,8 +161,15 @@ background-color: #ffffff;
 /* gallary */
 .images{
     height: 500px;
-    width: 100%;
-    padding-left: 13px;
+    width: 99%;
+   
+	
+}
+.imagestwo{
+    height: 480px;
+    width: 80%;
+   margin:0 auto;
+
 }
 
 .pics{
@@ -207,15 +226,17 @@ background-color: #ffffff;
  /* unique pieces always trend  */
 
  .mother{
-    height: 620px;
+    height: 800px;
     width: 100%;
 margin-top: 80px;
+
     
  }
  .second{
     height: 700px;
-    width: 100%;
+    width: 90%;
     position: relative;
+	margin:0 auto;
     
  }
  .child1{
@@ -223,25 +244,25 @@ margin-top: 80px;
     height: 550px;
     width: 50%;
     background-color: #ffffff;
-    margin: 150px 0px 0px 30px;
+    margin: 150px 0px 0px 50px;
  }   
  .child2{
     float: left;
-    height: 700px;
+    height: 800px;
     width: 47%;
     background-image: url(assets/img/bg-01.jpg);
-    background-size: 650px 700px;
+    background-size: 80% 800px;
     background-repeat: no-repeat;
  }
  .child3{
     
-    height: 510px;
-    width: 30%;
+    height: 650px;
+    width: 25%;
     background-image: url(assets/img/bg-02.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    bottom: 12%;
+    top:10%;
     right: 38%;
     z-index: 1;
 
