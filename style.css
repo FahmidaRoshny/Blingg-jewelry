@@ -1,0 +1,394 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+/* navbar */
+
+.nav{
+display: flex;
+height: 90px;
+width: 100%;
+background-color: #ffffff;
+
+}
+.options a{
+    text-align: center;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    
+}
+.options{
+    height: 60px;
+    width: 40%;
+    padding-top: 30px;
+
+}
+.logo{
+    height: 90px;
+    width: 30%;
+  
+}
+.contact{
+    height: 60px;
+    width: 30%;
+    padding-top: 30px;
+}
+.contact a{
+    text-align: center;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    
+}
+
+/* header */
+
+.head{
+    height: 700px;
+    width: 100%;
+    background-image: url(assets/img/hero.jpg);
+    background-size: 1400px 800px;
+    background-repeat: no-repeat;
+}
+.text{
+    padding-top: 160px;
+    padding-left: 20px;
+    height: 400px;
+    width: 80%;
+    align-items: center;
+}
+.sense{
+    font-family: 'Cinzel', serif;
+    font-size: 55px;
+    font-weight: 200;
+   line-height: 90px;
+    
+}
+.pito{
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    font-weight: 100;
+}
+.btn{
+    height: 46px;
+    width: 12%;
+    border: 1px solid black;
+    background-color: #F4E5C8;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* logo section */
+.logos{
+    height: 170px;
+    width: 95%;
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.logo1{
+    float: left;
+    height: 160px;
+    width: 20%;
+    border: 1px solid rgb(237, 221, 221);
+    margin: 5px;
+
+}
+.logo2{
+    float: left;
+    height: 160px;
+    width: 20%;
+    border: 1px solid rgb(237, 221, 221);
+    margin: 5px;
+    
+}
+.logo3{
+    float: left;
+    height: 160px;
+    width: 20%;
+    border: 1px solid rgb(237, 221, 221);
+    margin: 5px;
+}
+.logo4{
+    float: left;
+    height: 160px;
+    width: 20%;
+    border: 1px solid rgb(237, 221, 221);
+    margin: 5px;
+}
+.logo5{
+    height: 160px;
+    width: 20%;
+    border: 1px solid rgb(237, 221, 221);
+    margin: 5px;
+}
+
+/* popular products */
+
+.prod{
+    height: 180px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 70px;
+}
+.trend{
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+/* gallary */
+.images{
+    height: 500px;
+    width: 100%;
+    padding-left: 13px;
+}
+
+.pics{
+    height: 490px;
+    width: 96%;
+   margin:30px;
+}
+.pic1{
+    float: left;
+    height: 400px;
+    width: 25%;
+}
+.zoom-img {
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .zoom-img img {
+    width: 100%;
+    transition: all .3s ease;
+  }
+  
+  .zoom-img img:hover {
+    transform: scale(1.8);
+  }
+
+  
+.pic2{
+    float: left;
+    height: 400px;
+    width: 25%;
+}
+.pic3{
+    float: left;
+    height: 400px;
+    width: 25%;
+}
+.pic4{
+    float: right;
+    height: 400px;
+    width: 25%;
+    
+}
+.name{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding-left: 35px;
+}
+.tk{
+    padding-left: 35px;
+}
+
+ /* unique pieces always trend  */
+
+ .mother{
+    height: 620px;
+    width: 100%;
+margin-top: 80px;
+    
+ }
+ .second{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    
+ }
+ .child1{
+    float: left;
+    height: 550px;
+    width: 50%;
+    background-color: #ffffff;
+    margin: 150px 0px 0px 30px;
+ }   
+ .child2{
+    float: left;
+    height: 700px;
+    width: 47%;
+    background-image: url(assets/img/bg-01.jpg);
+    background-size: 650px 700px;
+    background-repeat: no-repeat;
+ }
+ .child3{
+    
+    height: 510px;
+    width: 30%;
+    background-image: url(assets/img/bg-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 12%;
+    right: 38%;
+    z-index: 1;
+
+ }
+ .sense2{
+
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    font-weight: semi-bold;
+    
+ }
+ .pito2{
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    font-weight: 50;
+    color: grey;
+ }
+ .btn2{
+
+    height: 46px;
+    width: 20%;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+ }
+ .btn2:hover{
+    background-color: black;
+    color: white;
+
+ }
+ .best{
+    height: 300px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 200px;
+    text-align: center;
+ }
+
+ .trend3{
+    font-family: 'Cinzel', serif;
+    font-size: 45px;
+    font-weight: 100;
+    height: 300px;
+    width: 100%;
+  
+ }
+ .lorem{
+    height: 300px;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    font-weight: 100;
+  line-height: 30px;
+  color: grey;
+
+ }
+
+
+ /* discounts shipping payment tracking */
+
+ .all{
+    display: flex;
+    height: 360px;
+    width: 97%;
+    background-color:#ffffff;
+    padding-left: 3%;
+ }
+ .discount{
+    height: 400px;
+    width: 25%;
+    
+ }
+ .shipping{
+    height: 400px;
+    width: 25%;
+    
+
+ }
+ .payment{
+    height: 400px;
+    width: 25%;
+   
+
+ }
+ .tracking{
+    height: 400px;
+    width: 25%;
+    
+
+ }
+ .lor{
+
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+  
+ }
+ .tex{
+
+    font-family: sans-serif ;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    color: grey;
+ }
+
+ /* footer part */
+
+ .allfooter{
+
+    display: flex;
+    height: 300px;
+    width: 97%;
+    background-color: #FAF5F0;
+    padding-left: 3%;
+    padding-top: 40px;
+ }
+.regular{
+    
+    padding-top: 40px;
+}
+
+
+ul{
+    list-style-type:none;
+}
+
+ li{
+    font-family: sans-serif ;
+    font-size: 15px;
+    font-weight: thin;
+    line-height: 25px;
+    color: grey;
+ }
+ .headings{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 34px;
+    margin-top: 40px;
+ }
+
+.last{
+
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #FAF5F0;
+    font-weight: 100;
+    color: grey;
+}
